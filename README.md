@@ -24,4 +24,21 @@ Welcome to my personal portfolio website! This is a responsive, modern, and mini
 - Deployed with [GitHub Pages ]
 
 ## 📂 Project Structure
+portfolio-website/
+│
+├── public/
+│ ├── images/
+│ └── valliappan.png
+│
+├── src/
+│ └── index.js
+## 🔧 Setup Instructions
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/portfolio-website.git
+cd portfolio-website
+
+
 
