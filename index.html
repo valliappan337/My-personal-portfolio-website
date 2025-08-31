@@ -1384,13 +1384,17 @@
         starsContainer.appendChild(star);
     }
   }
-  function downloadResume() {
+ <button onclick="downloadResume()">Download Resume</button>
+
+<script>
+function downloadResume() {
   const link = document.createElement('a');
-  link.href = 'https://raw.githubusercontent.com/Valliappan337/Resume/main/valliappan.resume.pdf';
-  link.download = 'valliappan.resume.pdf';
+  link.href = 'https://raw.githubusercontent.com/valliappan337/Resume/main/valliappan.Resume.pdf';
+  link.download = 'valliappan.Resume.pdf';
   link.target = '_blank';
   link.click();
 }
+</script>
 
         // Function to generate particles for the background
         function generateParticles() {
@@ -1504,4 +1508,5 @@
     </script>
 </body>
 </html>
+
 
